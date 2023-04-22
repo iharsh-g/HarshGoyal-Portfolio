@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
+.contactMe-section {
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-top: 8rem;
+    padding: 2rem;
+}
+
+.contactMe-heading {
+    color: #E84949;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-left: 7rem;
+}
+
+.contactMe-sub-heading {
+    margin-left: 7rem;
+    color: #707692;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.contactMe-form {
+    max-width: 850px;
+    padding-top: 3rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#name {
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px grey;
+    font-size: 1.2rem;
+    background-color:rgb(245, 245, 245);
+}
+
+#email {
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px grey;
+    font-size: 1.2rem;
+    background-color:rgb(245, 245, 245);
+}
+
+#subject {
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px grey;
+    font-size: 1.2rem;
+    background-color:rgb(245, 245, 245);
+}
+
+#message {
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px grey;
+    font-size: 1.2rem;
+    background-color:rgb(245, 245, 245);
+}
+
+.send-button {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #E84949;
+    width: fit-content;
+
+    color: white;
+    padding: 0.8rem 2.7em;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    font-size: 1.4rem;
+    cursor: pointer;
+    font-weight: 500;
+    
+    transition: all 0.5s;
+    z-index: 1;
+    
+    border: none;
+}
+
+.send-button::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+    z-index: -1;
+}
+
+.send-button:hover::before {
+    transform: scaleX(1);
+}
+
+.send-button:hover {
+    color: black;
+    transform: scale(0.92);
+}
+
+@media screen and (max-width: 1500px) {
+    .contactMe-section {
+        margin-top: 9rem;
+    }
+    .contactMe-heading {
+        margin-left: 2rem;
+    }
+    .contactMe-sub-heading {
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .contactMe-section {
+        margin-top: 1rem;
+    }
+    .contactMe-heading {
+        margin-left: 0rem;
+    }
+    .contactMe-sub-heading {
+        margin-left: 0rem;
+        font-size: 2rem;
+    }
+    .btn-div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .send-button {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .contactMe-section {
+        margin-top: 2rem;
+        width: 470px;
+    }
+    .contactMe-heading {
+        font-size: 3rem;
+    }
+    .contactMe-sub-heading {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
+.skills-container {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 10rem auto;
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 1200px;
+    /* border: 1px solid black; */
+}
+
+.skill-container-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-container-right {
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-fade-text{
+    position:absolute;
+    font-size:15em;
+    font-weight: bolder;
+    color:rgb(231,231,231);
+
+    bottom:-87%;
+    right:-14%;
+    user-select:none;
+    overflow-y:hidden;
+}
+
+.blob-style{
+    position:absolute;
+    top:50%;
+    left:50%;
+    z-index:-5;
+    transform:translate(-50%, -50%);
+    animation: blobAnimate 3s linear infinite;
+}
+  
+@keyframes blobAnimate {
+    50%{
+      top:54%;
+      left:46%;
+    }
+}
+
+.skills-logo{
+    width:90px;
+    transition:all 0.5s;
+}
+
+.firebase-img {
+    width: 150px;
+    height: 90px;
+}
+
+.skills-logo:hover{
+    transform:scale(1.2);
+}
+
+.skill-heading{
+    font-size:50px;
+    font-style: bold;
+    color: #E84949;
+    line-height: 50px;
+}
+  
+.caps{
+    font-size:90px;
+}
+  
+.skill-subHeading{
+    margin-top: 1rem;
+    width:85%;
+    text-align: justify;
+}
+  
+.skill-subHeading p{
+    margin:15px 0;
+}
+
+@media screen and (max-width: 1500px) {
+    .skill-fade-text {
+        right: 0%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .skill-fade-text{
+        display: none;
+    }
+    .skills-container {
+        width: 800px;
+        margin-bottom: 0rem;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .skills-container {
+        width: 500px;
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+    .skill-container-left {
+        width: 100%;
+        align-items: center;
+    }
+    .skill-container-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .skills-container {
+        width: 530px;
+    }
+    .skills-logo{
+        width:50px;
+    }
+    
+    .firebase-img {
+        width: 70px;
+        height: 40px;
+    }
+    .blob-style{
+        display: none;
+    }
+}

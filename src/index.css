@@ -1,0 +1,56 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  position: absolute;
+  top: 10%;
+  height: 100vh;
+  z-index: 20;
+  transition: all 0.3s ease-in;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  padding: 10px 10px;
+  font-size: 24px;
+}
+
+.sidebar-projects {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar-skills {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar-contactme {
+  color: white;
+  text-decoration: none;
+}
+
+/* #343d68 */
+.sidebar-open {
+  background-color: #343d68 ;
+  width: 535px;
+}
+
+.sidebar-close {
+  width: 0px;
+}
