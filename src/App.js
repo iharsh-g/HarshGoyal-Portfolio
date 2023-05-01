@@ -26,11 +26,15 @@ function App() {
       <Navbar sideBarOpen = {sideBarOpen} setSideBarOpen = {setSideBarOpen}/>
       {
         sideBarOpen ?
-        <div className="sidebar sidebar-open">
-          <div><a href="#projects" className="sidebar-projects" onClick={clickHandler}>Projects</a></div>
-          <div><a href="#skills" className="sidebar-skills" onClick={clickHandler}>Skills</a></div>
-          <div><a href="#contactme" className="sidebar-contactme" onClick={clickHandler}>Contact Me</a></div>
-        </div> 
+        <div>
+          <div className="background" onClick={clickHandler}></div>
+          <div className="sidebar sidebar-open">
+            <div><a href="#projects" className="sidebar-projects" onClick={clickHandler}>Projects</a></div>
+            <div><a href="#skills" className="sidebar-skills" onClick={clickHandler}>Skills</a></div>
+            <div><a href="#contactme" className="sidebar-contactme" onClick={clickHandler}>Contact Me</a></div>
+          </div> 
+        </div>
+        
         : <div className="sidebar sidebar-close"></div>
       }
       <HeroSection/>

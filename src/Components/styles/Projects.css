@@ -112,7 +112,7 @@
 }
 
 .project-content-right {
-    right: 10%;
+    left: 30%;
 }
 
 .project-skills-container {
@@ -220,6 +220,7 @@
     }
     .project-content-right {
         right: 0%;
+        left: 10%;
     }
 }
 
@@ -236,6 +237,11 @@
         padding: 1rem 0;
         gap: 70px;
         margin-top: -3rem;
+    }
+    
+    .project-heading{
+        font-size:30px;
+        line-height:1rem;
     }
 }
 

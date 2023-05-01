@@ -19,7 +19,7 @@ function HeroSection() {
                     I am a {' '}
                     <span class="role">
                         {
-                            <Typewriter words={["Full Stack Developer", "Web Developer", "Backend Developer", "Android Developer", "Coder"]}
+                            <Typewriter words={["Full Stack Developer", "Web Developer", "Backend Developer", "Frontend Developer", "Coder"]}
                                 cursor
                             />
                         }
