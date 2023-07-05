@@ -28,7 +28,7 @@ function Skills() {
             <div class="skill-subHeading">
                 <p>
                 Hi Everyone My name is Harsh Goyal I am a Full Stack Web Developer I
-                have been working for last 5 months in this field and currently I am looking forward for opportunity 
+                have been working for last 6 months in this field and currently I am looking forward for opportunity 
                 in this field. Feel free to contact me!
                 </p>
                 <p>

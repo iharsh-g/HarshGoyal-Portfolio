@@ -7,11 +7,13 @@ import Javascript from '../Images/stack/Javascript.svg';
 import Tailwind from '../Images/stack/Tailwind.png';
 import react from '../Images/stack/React.png';
 import NodeJs from '../Images/stack/NodeJs.svg';
-import Vercel from '../Images/stack/Vercel.svg';
+import MongoDB from '../Images/stack/MongoDB.svg';
+import Express from '../Images/stack/Express.png';
 import Redux from '../Images/stack/Redux.svg';
-import imagePathProject1 from '../Images/projects/Cryptoverse.png'
-import imagePathProject2 from '../Images/projects/YoutubeClone.png'
-import imagePathProject3 from '../Images/projects/Moviepedia.png'
+import Vercel from '../Images/stack/Vercel.svg';
+import imagePathProject1 from '../Images/projects/StudyNotion.png'
+import imagePathProject2 from '../Images/projects/Ecommerce.png'
+import imagePathProject3 from '../Images/projects/Dalle Image.png'
 
 import {AiFillGithub} from 'react-icons/ai';
 
@@ -31,22 +33,24 @@ function Projects() {
                         <img class="project-skill" src={Css} alt="" />
                         <img class="project-skill" src={Javascript} alt="" />
                         <img class="project-skill" src={Tailwind} alt="" />
-                        <img class="project-skill" src={react} alt="" />
                         <img class="project-skill" src={Redux} alt=''/>
+                        <img class="project-skill" src={MongoDB} alt="" />
+                        <img class="project-skill" src={Express} alt="" />
+                        <img class="project-skill" src={react} alt="" />
                         <img class="project-skill" src={NodeJs} alt="" />
                         <img class="project-skill" src={Vercel} alt="" />
                     </div>
-                    <h2 class="project-heading">Cryptoverse</h2>
+                    <h2 class="project-heading">StudyNotion</h2>
                     <p class="project-subHeading">
-                        A website where crypto enthusiast can easily track the crypto currency details, related news, about the history of the coin.
+                        An Ed Tech Platform built with MERN Stack, Instructor can create the course, Students can buy the course with Razaorpay Integration
                     </p>
                     <div class="btn-group">
-                        <a href="https://cryptoverse-iharsh-g.vercel.app/" target='blank'>
+                        <a href="https://github.com/iharsh-g/StudyNotion" target='blank'>
                             <button class="btn">Check Out</button>
                         </a>
-                        <a href="https://github.com/iharsh-g/Cryptoverse" target="blank">
+                        {/* <a href="Github Link and paste deployed link" target="blank">
                             <AiFillGithub className='icon'/>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
@@ -60,21 +64,24 @@ function Projects() {
                         <img class="project-skill" src={Css} alt="" />
                         <img class="project-skill" src={Javascript} alt="" />
                         <img class="project-skill" src={Tailwind} alt="" />
+                        <img class="project-skill" src={Redux} alt=''/>
+                        <img class="project-skill" src={MongoDB} alt="" />
+                        <img class="project-skill" src={Express} alt="" />
                         <img class="project-skill" src={react} alt="" />
                         <img class="project-skill" src={NodeJs} alt="" />
                         <img class="project-skill" src={Vercel} alt="" />
                     </div>
-                    <h2 class="project-heading">Youtube Clone</h2>
-                    <p class="project-sub-heading">
-                        Its a youtube clone with the help of Radip API which shows contents related to the videos with responsiveness.
+                    <h2 class="project-heading">Ecommerce Website</h2>
+                    <p class="project-subHeading">
+                        An online e-commerce platform where user can buy the products and review them, admin can do CRUD operations with products
                     </p>
                     <div class="btn-group">
-                        <a href="https://youtube-clone-iharsh-g.vercel.app" target='blank'>
+                        <a href="https://github.com/iharsh-g/Ecommerce-website" target='blank'>
                             <button class="btn">Check Out</button>
                         </a>
-                        <a href="https://github.com/iharsh-g/YoutubeClone" target="blank">
+                        {/* <a href="GitHub Link" target="blank">
                             <AiFillGithub className='icon'/>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
@@ -88,22 +95,25 @@ function Projects() {
                         <img class="project-skill" src={Css} alt="" />
                         <img class="project-skill" src={Javascript} alt="" />
                         <img class="project-skill" src={Tailwind} alt="" />
+                        <img class="project-skill" src={Redux} alt=''/>
+                        <img class="project-skill" src={MongoDB} alt="" />
+                        <img class="project-skill" src={Express} alt="" />
                         <img class="project-skill" src={react} alt="" />
                         <img class="project-skill" src={NodeJs} alt="" />
                         <img class="project-skill" src={Vercel} alt="" />
                     </div>
-                    <h2 class="project-heading">Moviepedia</h2>
-                    <p class="project-sub-heading">
-                        A website where we can find any type of movie details, trailers and their cast
+                    <h2 class="project-heading">Dalle Image Generator</h2>
+                    <p class="project-subHeading">
+                        It uses Dalle.E Api go generate unique images. Combine with MERN stack where the images can be post online.
                     </p>
                     <div class="btn-group">
-                        <a href="https://moviepedia-website.vercel.app/" target='blank'>
+                        <a href="https://github.com/iharsh-g/Dalle-Image-Generator" target='blank'>
                             <button class="btn">Check Out</button>
                         </a>
 
-                        <a href="https://github.com/iharsh-g/MoviepediaWebsite" target='blank'>
+                        {/* <a href="GItHub Link" target='blank'>
                             <AiFillGithub className='icon'/>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
