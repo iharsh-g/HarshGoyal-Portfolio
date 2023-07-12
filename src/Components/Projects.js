@@ -45,7 +45,7 @@ function Projects() {
                         An Ed Tech Platform built with MERN Stack, Instructor can create the course, Students can buy the course with Razaorpay Integration
                     </p>
                     <div class="btn-group">
-                        <a href="https://github.com/iharsh-g/StudyNotion" target='blank'>
+                        <a href="https://github.com/iharsh-g/StudyNotion-EdTech" target='blank'>
                             <button class="btn">Check Out</button>
                         </a>
                         {/* <a href="Github Link and paste deployed link" target="blank">
@@ -76,7 +76,7 @@ function Projects() {
                         An online e-commerce platform where user can buy the products and review them, admin can do CRUD operations with products
                     </p>
                     <div class="btn-group">
-                        <a href="https://github.com/iharsh-g/Ecommerce-website" target='blank'>
+                        <a href="https://github.com/iharsh-g/Ecommerce" target='blank'>
                             <button class="btn">Check Out</button>
                         </a>
                         {/* <a href="GitHub Link" target="blank">
